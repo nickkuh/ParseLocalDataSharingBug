@@ -7,6 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		480BFC091AFCD82D0073837D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480BFC081AFCD82D0073837D /* InterfaceController.swift */; };
+		480BFC0B1AFCD82D0073837D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480BFC0A1AFCD82D0073837D /* Images.xcassets */; };
+		480BFC0F1AFCD82D0073837D /* LDSBug WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 480BFC0E1AFCD82D0073837D /* LDSBug WatchKit App.app */; };
+		480BFC171AFCD82D0073837D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 480BFC151AFCD82D0073837D /* Interface.storyboard */; };
+		480BFC191AFCD82D0073837D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 480BFC181AFCD82D0073837D /* Images.xcassets */; };
+		480BFC1C1AFCD82D0073837D /* LDSBug WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 480BFC041AFCD82D0073837D /* LDSBug WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		480BFC241AFCD8ED0073837D /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816B1A49DB6800E65899 /* Bolts.framework */; };
+		480BFC251AFCD8ED0073837D /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA816C1A49DB6800E65899 /* Parse.framework */; };
+		480BFC271AFCD9A20073837D /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480BFC261AFCD9A20073837D /* DataModel.swift */; };
+		480BFC291AFCE6760073837D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC281AFCE6760073837D /* Social.framework */; };
+		480BFC2B1AFCE67C0073837D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC2A1AFCE67C0073837D /* Accounts.framework */; };
+		480BFC2C1AFCE6890073837D /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81761A49E0D500E65899 /* libsqlite3.dylib */; };
+		480BFC2E1AFCE6920073837D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC2D1AFCE6920073837D /* libz.dylib */; };
+		480BFC2F1AFCE69C0073837D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817A1A49E0E500E65899 /* SystemConfiguration.framework */; };
+		480BFC311AFCE6A30073837D /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC301AFCE6A30073837D /* StoreKit.framework */; };
+		480BFC331AFCE6A80073837D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC321AFCE6A80073837D /* Security.framework */; };
+		480BFC341AFCE6B60073837D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA817C1A49E0EA00E65899 /* MobileCoreServices.framework */; };
+		480BFC361AFCE6BE0073837D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC351AFCE6BE0073837D /* CoreLocation.framework */; };
+		480BFC381AFCE6C50073837D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 480BFC371AFCE6C50073837D /* CFNetwork.framework */; };
+		480BFC391AFCE6CB0073837D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81781A49E0DB00E65899 /* AudioToolbox.framework */; };
+		480BFC401AFCEA040073837D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480BFC3F1AFCEA040073837D /* Delay.swift */; };
+		480BFC411AFCEA040073837D /* Delay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480BFC3F1AFCEA040073837D /* Delay.swift */; };
 		482D469E1AF5135B0032E807 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D46991AF5135B0032E807 /* SVIndefiniteAnimatedView.m */; };
 		482D469F1AF5135B0032E807 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 482D469B1AF5135B0032E807 /* SVProgressHUD.bundle */; };
 		482D46A01AF5135B0032E807 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D469D1AF5135B0032E807 /* SVProgressHUD.m */; };
@@ -26,14 +48,65 @@
 		81BA81811A49E10C00E65899 /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81BA81801A49E10C00E65899 /* ParseUI.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		480BFC101AFCD82D0073837D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA813D1A49DA1800E65899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480BFC0D1AFCD82D0073837D;
+			remoteInfo = "LDSBug WatchKit App";
+		};
+		480BFC1A1AFCD82D0073837D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BA813D1A49DA1800E65899 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 480BFC031AFCD82D0073837D;
+			remoteInfo = "LDSBug WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		480BFC231AFCD82D0073837D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				480BFC1C1AFCD82D0073837D /* LDSBug WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		480BFBFF1AFCD4AF0073837D /* ParseStarterProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ParseStarterProject.entitlements; sourceTree = "<group>"; };
+		480BFC041AFCD82D0073837D /* LDSBug WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LDSBug WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480BFC071AFCD82D0073837D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480BFC081AFCD82D0073837D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		480BFC0A1AFCD82D0073837D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		480BFC0E1AFCD82D0073837D /* LDSBug WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LDSBug WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		480BFC141AFCD82D0073837D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		480BFC161AFCD82D0073837D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		480BFC181AFCD82D0073837D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		480BFC261AFCD9A20073837D /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		480BFC281AFCE6760073837D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		480BFC2A1AFCE67C0073837D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		480BFC2D1AFCE6920073837D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		480BFC301AFCE6A30073837D /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		480BFC321AFCE6A80073837D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		480BFC351AFCE6BE0073837D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		480BFC371AFCE6C50073837D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		480BFC3A1AFCE7BB0073837D /* LDSBug WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LDSBug WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		480BFC3E1AFCE83D0073837D /* LDSBug WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "LDSBug WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		480BFC3F1AFCEA040073837D /* Delay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Delay.swift; sourceTree = "<group>"; };
 		482D46981AF5135B0032E807 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
 		482D46991AF5135B0032E807 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		482D469A1AF5135B0032E807 /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
 		482D469B1AF5135B0032E807 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
 		482D469C1AF5135B0032E807 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
 		482D469D1AF5135B0032E807 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
-		81BA81451A49DA1800E65899 /* ParseStarterProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseStarterProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BA81451A49DA1800E65899 /* LDSBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LDSBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81BA81491A49DA1800E65899 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81BA814A1A49DA1800E65899 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		81BA814C1A49DA1800E65899 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +126,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		480BFC011AFCD82D0073837D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480BFC391AFCE6CB0073837D /* AudioToolbox.framework in Frameworks */,
+				480BFC381AFCE6C50073837D /* CFNetwork.framework in Frameworks */,
+				480BFC361AFCE6BE0073837D /* CoreLocation.framework in Frameworks */,
+				480BFC341AFCE6B60073837D /* MobileCoreServices.framework in Frameworks */,
+				480BFC331AFCE6A80073837D /* Security.framework in Frameworks */,
+				480BFC311AFCE6A30073837D /* StoreKit.framework in Frameworks */,
+				480BFC2F1AFCE69C0073837D /* SystemConfiguration.framework in Frameworks */,
+				480BFC2E1AFCE6920073837D /* libz.dylib in Frameworks */,
+				480BFC2C1AFCE6890073837D /* libsqlite3.dylib in Frameworks */,
+				480BFC2B1AFCE67C0073837D /* Accounts.framework in Frameworks */,
+				480BFC291AFCE6760073837D /* Social.framework in Frameworks */,
+				480BFC251AFCD8ED0073837D /* Parse.framework in Frameworks */,
+				480BFC241AFCD8ED0073837D /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81BA81421A49DA1800E65899 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -73,6 +166,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		480BFC051AFCD82D0073837D /* LDSBug WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				480BFC3E1AFCE83D0073837D /* LDSBug WatchKit Extension.entitlements */,
+				480BFC081AFCD82D0073837D /* InterfaceController.swift */,
+				480BFC0A1AFCD82D0073837D /* Images.xcassets */,
+				480BFC061AFCD82D0073837D /* Supporting Files */,
+				480BFC261AFCD9A20073837D /* DataModel.swift */,
+				480BFC3A1AFCE7BB0073837D /* LDSBug WatchKit Extension-Bridging-Header.h */,
+			);
+			path = "LDSBug WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		480BFC061AFCD82D0073837D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480BFC071AFCD82D0073837D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		480BFC121AFCD82D0073837D /* LDSBug WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				480BFC151AFCD82D0073837D /* Interface.storyboard */,
+				480BFC181AFCD82D0073837D /* Images.xcassets */,
+				480BFC131AFCD82D0073837D /* Supporting Files */,
+			);
+			path = "LDSBug WatchKit App";
+			sourceTree = "<group>";
+		};
+		480BFC131AFCD82D0073837D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				480BFC141AFCD82D0073837D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		482D46971AF5135B0032E807 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +223,8 @@
 			children = (
 				482D46971AF5135B0032E807 /* SVProgressHUD */,
 				81BA81471A49DA1800E65899 /* ParseStarterProject */,
+				480BFC051AFCD82D0073837D /* LDSBug WatchKit Extension */,
+				480BFC121AFCD82D0073837D /* LDSBug WatchKit App */,
 				81BA816A1A49DB5600E65899 /* Frameworks */,
 				81BA81461A49DA1800E65899 /* Products */,
 			);
@@ -99,7 +233,9 @@
 		81BA81461A49DA1800E65899 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81BA81451A49DA1800E65899 /* ParseStarterProject.app */,
+				81BA81451A49DA1800E65899 /* LDSBug.app */,
+				480BFC041AFCD82D0073837D /* LDSBug WatchKit Extension.appex */,
+				480BFC0E1AFCD82D0073837D /* LDSBug WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,6 +243,8 @@
 		81BA81471A49DA1800E65899 /* ParseStarterProject */ = {
 			isa = PBXGroup;
 			children = (
+				480BFBFF1AFCD4AF0073837D /* ParseStarterProject.entitlements */,
+				480BFC3F1AFCEA040073837D /* Delay.swift */,
 				81BA814A1A49DA1800E65899 /* AppDelegate.swift */,
 				81BA814C1A49DA1800E65899 /* ViewController.swift */,
 				81BA814E1A49DA1800E65899 /* Main.storyboard */,
@@ -128,6 +266,13 @@
 		81BA816A1A49DB5600E65899 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				480BFC371AFCE6C50073837D /* CFNetwork.framework */,
+				480BFC351AFCE6BE0073837D /* CoreLocation.framework */,
+				480BFC321AFCE6A80073837D /* Security.framework */,
+				480BFC301AFCE6A30073837D /* StoreKit.framework */,
+				480BFC2D1AFCE6920073837D /* libz.dylib */,
+				480BFC2A1AFCE67C0073837D /* Accounts.framework */,
+				480BFC281AFCE6760073837D /* Social.framework */,
 				81BA816B1A49DB6800E65899 /* Bolts.framework */,
 				81BA816C1A49DB6800E65899 /* Parse.framework */,
 				81BA816D1A49DB6800E65899 /* ParseCrashReporting.framework */,
@@ -153,22 +298,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81BA81441A49DA1800E65899 /* ParseStarterProject */ = {
+		480BFC031AFCD82D0073837D /* LDSBug WatchKit Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "ParseStarterProject" */;
+			buildConfigurationList = 480BFC201AFCD82D0073837D /* Build configuration list for PBXNativeTarget "LDSBug WatchKit Extension" */;
 			buildPhases = (
-				81BA81411A49DA1800E65899 /* Sources */,
-				81BA81421A49DA1800E65899 /* Frameworks */,
-				81BA81431A49DA1800E65899 /* Resources */,
-				81CC85E11A49F6D40076DE19 /* Upload Symbol Files */,
+				480BFC001AFCD82D0073837D /* Sources */,
+				480BFC011AFCD82D0073837D /* Frameworks */,
+				480BFC021AFCD82D0073837D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480BFC111AFCD82D0073837D /* PBXTargetDependency */,
+			);
+			name = "LDSBug WatchKit Extension";
+			productName = "LDSBug WatchKit Extension";
+			productReference = 480BFC041AFCD82D0073837D /* LDSBug WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		480BFC0D1AFCD82D0073837D /* LDSBug WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 480BFC1D1AFCD82D0073837D /* Build configuration list for PBXNativeTarget "LDSBug WatchKit App" */;
+			buildPhases = (
+				480BFC0C1AFCD82D0073837D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ParseStarterProject;
+			name = "LDSBug WatchKit App";
+			productName = "LDSBug WatchKit App";
+			productReference = 480BFC0E1AFCD82D0073837D /* LDSBug WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		81BA81441A49DA1800E65899 /* LDSBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "LDSBug" */;
+			buildPhases = (
+				81BA81411A49DA1800E65899 /* Sources */,
+				81BA81421A49DA1800E65899 /* Frameworks */,
+				81BA81431A49DA1800E65899 /* Resources */,
+				81CC85E11A49F6D40076DE19 /* Upload Symbol Files */,
+				480BFC231AFCD82D0073837D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				480BFC1B1AFCD82D0073837D /* PBXTargetDependency */,
+			);
+			name = LDSBug;
 			productName = ParseStarterProject;
-			productReference = 81BA81451A49DA1800E65899 /* ParseStarterProject.app */;
+			productReference = 81BA81451A49DA1800E65899 /* LDSBug.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -180,8 +360,32 @@
 				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = Parse;
 				TargetAttributes = {
+					480BFC031AFCD82D0073837D = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = P5GZHZ26UP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					480BFC0D1AFCD82D0073837D = {
+						CreatedOnToolsVersion = 6.3;
+					};
 					81BA81441A49DA1800E65899 = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = P5GZHZ26UP;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -198,12 +402,32 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81BA81441A49DA1800E65899 /* ParseStarterProject */,
+				81BA81441A49DA1800E65899 /* LDSBug */,
+				480BFC031AFCD82D0073837D /* LDSBug WatchKit Extension */,
+				480BFC0D1AFCD82D0073837D /* LDSBug WatchKit App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		480BFC021AFCD82D0073837D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480BFC0B1AFCD82D0073837D /* Images.xcassets in Resources */,
+				480BFC0F1AFCD82D0073837D /* LDSBug WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		480BFC0C1AFCD82D0073837D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480BFC171AFCD82D0073837D /* Interface.storyboard in Resources */,
+				480BFC191AFCD82D0073837D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81BA81431A49DA1800E65899 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -234,6 +458,16 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		480BFC001AFCD82D0073837D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				480BFC411AFCEA040073837D /* Delay.swift in Sources */,
+				480BFC091AFCD82D0073837D /* InterfaceController.swift in Sources */,
+				480BFC271AFCD9A20073837D /* DataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		81BA81411A49DA1800E65899 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -242,12 +476,34 @@
 				482D46A01AF5135B0032E807 /* SVProgressHUD.m in Sources */,
 				81BA814B1A49DA1800E65899 /* AppDelegate.swift in Sources */,
 				482D469E1AF5135B0032E807 /* SVIndefiniteAnimatedView.m in Sources */,
+				480BFC401AFCEA040073837D /* Delay.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		480BFC111AFCD82D0073837D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480BFC0D1AFCD82D0073837D /* LDSBug WatchKit App */;
+			targetProxy = 480BFC101AFCD82D0073837D /* PBXContainerItemProxy */;
+		};
+		480BFC1B1AFCD82D0073837D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 480BFC031AFCD82D0073837D /* LDSBug WatchKit Extension */;
+			targetProxy = 480BFC1A1AFCD82D0073837D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
+		480BFC151AFCD82D0073837D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				480BFC161AFCD82D0073837D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
 		81BA814E1A49DA1800E65899 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,6 +515,95 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		480BFC1E1AFCD82D0073837D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = LDSBug_WatchKit_Extension;
+				INFOPLIST_FILE = "LDSBug WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		480BFC1F1AFCD82D0073837D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = LDSBug_WatchKit_Extension;
+				INFOPLIST_FILE = "LDSBug WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		480BFC211AFCD82D0073837D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "LDSBug WatchKit Extension/LDSBug WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LDSBug WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LDSBug WatchKit Extension/LDSBug WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		480BFC221AFCD82D0073837D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "LDSBug WatchKit Extension/LDSBug WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "LDSBug WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LDSBug WatchKit Extension/LDSBug WatchKit Extension-Bridging-Header.h";
+			};
+			name = Release;
+		};
 		81BA81621A49DA1800E65899 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -343,6 +688,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ParseStarterProject/ParseStarterProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -350,6 +698,7 @@
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
 			name = Debug;
@@ -359,6 +708,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = ParseStarterProject/ParseStarterProject.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
@@ -366,6 +718,7 @@
 				INFOPLIST_FILE = ParseStarterProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "ParseStarterProject/ParseStarterProject-Bridging-Header.h";
 			};
 			name = Release;
@@ -373,6 +726,22 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		480BFC1D1AFCD82D0073837D /* Build configuration list for PBXNativeTarget "LDSBug WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480BFC1E1AFCD82D0073837D /* Debug */,
+				480BFC1F1AFCD82D0073837D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		480BFC201AFCD82D0073837D /* Build configuration list for PBXNativeTarget "LDSBug WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				480BFC211AFCD82D0073837D /* Debug */,
+				480BFC221AFCD82D0073837D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		81BA81401A49DA1800E65899 /* Build configuration list for PBXProject "ParseStarterProject" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -382,7 +751,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "ParseStarterProject" */ = {
+		81BA81641A49DA1800E65899 /* Build configuration list for PBXNativeTarget "LDSBug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81BA81651A49DA1800E65899 /* Debug */,

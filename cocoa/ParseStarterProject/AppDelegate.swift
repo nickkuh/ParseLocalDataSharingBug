@@ -28,7 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Enable storing and querying data from Local Datastore. 
         // Remove this line if you don't want to use Local Datastore features or want to use cachePolicy.
         Parse.enableLocalDatastore()
-
+        
+        Parse.enableDataSharingWithApplicationGroupIdentifier("group.com.nickkuh.lds");
+        
         // ****************************************************************************
         // Uncomment this line if you want to enable Crash Reporting
         // ParseCrashReporting.enable()
